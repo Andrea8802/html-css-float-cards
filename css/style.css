@@ -54,10 +54,15 @@ h3{
 
 }
 
-.card a,h6{
+.card h6{
     font-size: 13px;
     font-weight: lighter;
     margin-top: 5px;
+}
+
+.card > a{
+    font-size: 13px;
+    text-decoration: none; 
 }
 
 .card > img{
