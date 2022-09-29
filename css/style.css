@@ -17,15 +17,15 @@ header{
 header > h1{
     font-family: 'Fredoka One', cursive;
     color: #e53170;
-    margin: 15px 0px 30px;
+    margin: 20px 0px 35px;
 }
 
 
 /* Main Rules */
 .container{
-    width: 70%;
+    width: 75%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 /* Cards Rules */
@@ -34,11 +34,20 @@ header > h1{
     margin: 10px;
     float: left;
     color: white;
-    height: 70px;
+    height: 80px;
     background-color: #0f0e17;
+    box-shadow:  3px 3px 5px #dedede, -3px -3px 5px #dedede, 3px -3px 5px #dedede, -3px  3px 5px #dedede;
+    line-height: 23px;
 }
 
-h3{
+.card > img{
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.card > h3{
     font-family: 'Fredoka One', cursive;
     font-size: 13px;
     margin-top: 7px;
@@ -46,10 +55,9 @@ h3{
 
 }
 
-.card h6{
+.card > h6{
     font-size: 13px;
     font-weight: lighter;
-    margin-top: 5px;
 }
 
 .card > a{
@@ -58,8 +66,7 @@ h3{
     color: #58c0d9;
 }
 
-.card > img{
-    height: 100%;
-    float: left;
-    margin-right: 5px;
+.card > a:hover{
+    color: #551A8B;
+    text-decoration: underline;
 }
