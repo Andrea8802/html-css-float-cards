@@ -10,36 +10,28 @@
 header{
     height: 100px;
     text-align: center;
-    /* DEBUG */
-    background-color: blue;
+    width: 75%;
+    margin: auto;
 }
 
-h1{
+header > h1{
     font-family: 'Fredoka One', cursive;
+    color: #e53170;
+    margin: 15px 0px 30px;
 }
+
 
 /* Main Rules */
 .container{
-    width: 75%;
+    width: 70%;
     margin: auto;
-    margin-top: 30px;
-    /* DEBUG */
-    background-color: red;
-    min-height: 200px;
+    margin-top: 50px;
 }
 
 /* Cards Rules */
-.row{
-    /* DEBUG  */
-    background-color: blueviolet;
-    width: 100%;
-    min-height: 100px;
-    border: 2px solid black;
-}
-
 .card{
     width: calc(100% / 3 - 20px);
-    margin: 0px 10px;
+    margin: 10px;
     float: left;
     color: white;
     height: 70px;
@@ -63,6 +55,7 @@ h3{
 .card > a{
     font-size: 13px;
     text-decoration: none; 
+    color: #58c0d9;
 }
 
 .card > img{
