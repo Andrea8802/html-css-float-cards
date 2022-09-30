@@ -37,6 +37,7 @@ header > h1{
     background-color: #0f0e17;
     box-shadow:  3px 3px 5px #dedede, -3px -3px 5px #dedede, 3px -3px 5px #dedede, -3px  3px 5px #dedede;
     line-height: 23px;
+    overflow: hidden;
 }
 
 .card > img{
